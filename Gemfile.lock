@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/rails/sprockets.git
+  revision: 341fed4f91e0dfd75f9740ee77885488db58aecd
+  branch: master
+  specs:
+    sprockets (4.0.0.beta5)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -166,9 +175,6 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
-    sprockets (3.7.1)
-      concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
     sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
@@ -208,11 +214,13 @@ DEPENDENCIES
   pg (~> 0.18)
   pry-rails
   puma (~> 3.7)
-  rails (~> 5.1.4)
+  rails (~> 5.1.3)
+  rb-fsevent
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  sprockets!
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
